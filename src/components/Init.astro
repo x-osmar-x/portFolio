@@ -1,0 +1,78 @@
+---
+import { Image } from "astro:assets";
+import ImageFondo from "../assets/img/fondo.jpg";
+import LinkenInIcon from "../assets/icons/LinkenIn.astro";
+import GithubIcon from "../assets/icons/Github.astro";
+import SocialGroup from "../assets/icons/SocialGroup.astro";
+---
+
+<section id="init" class="grow shrink-0 item ">
+  <div
+    class="grid lg:grid-cols-2 lg:gap-4 sm:grid-cols-1 sm:gap-1 shadow-2xl p-12"
+  >
+    <div class="">
+      <h1 class="animatedText text-5xl text-white-700 font-bold lg:py-3">
+        Software Develop
+      </h1>
+      <h2 class="font-semibold text-lg">Hello and Welcome!</h2>
+      <p class="font-semibold text-lg">
+        My name is Osmar Barrientos and I'm thrilled to have you here. As a
+        seasoned software developer with five years of hands-on experience in
+        the industry.
+      </p>
+      <nav class="flex gap-2 mt-5">
+        <SocialGroup
+          class="flex gap-2"
+          href="https://bo.linkedin.com/in/osmar-barrientos-chuveyzer-51934715a"
+        >
+          <LinkenInIcon class="w-6 h-6" />
+          LinkenIn
+        </SocialGroup>
+        <SocialGroup
+          class="flex gap-2"
+          href="https://github.com/x-osmar-x"
+        >
+          <GithubIcon class="w-6 h-6" />
+          Github
+        </SocialGroup>
+      </nav>
+    </div>
+    <div class="max-w-xl mx-auto">
+      <Image
+        src={ImageFondo}
+        alt="image1"
+        class="object-cover rounded-xl"
+        loading="eager"
+      />
+    </div>    
+  </div>
+
+</section>
+
+
+<!--   <div class="grid lg:grid-cols-2 p-4" >
+    <Image
+      src={ImageFondo}
+      alt="descriptive text"
+      class="rounded-xl h-auto w-auto object-cover object-center shadow-lg"
+      loading="eager"
+    />
+    <article class="text-center lg:py-32 sm:py-14">
+      <h1 class="font-['Press Start 2P'] text-5xl text-white-700 font-bold lg:py-3">Software Develop</h1>
+      <h2 class="">Hello and Welcome!</h2>
+      <p class="">
+        My name is Osmar Barrientos and I'm thrilled to have you here. As a
+        seasoned software developer with five years of hands-on experience in
+        the industry.
+      </p>
+    </article>
+  </div> -->
+
+<!-- <style>
+  img {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+</style>
+ -->
