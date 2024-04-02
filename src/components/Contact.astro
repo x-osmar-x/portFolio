@@ -44,31 +44,26 @@
   </div>
 </section>
 <script>
-  /*   const btn = document.querySelector("#btn");
-  btn?.addEventListener("click", mostrarDatos); */
-  /* function mostrarDatos() { */
-  // Obtener el elemento de entrada por su ID
-  /*     let email = document.querySelector("#email") as HTMLInputElement;
-      
-    const x1 = email.value;
-    const x2 = message.value */
   document.querySelector("#btn")?.addEventListener("click", async () => {
     try {
       const mensaje = (document.querySelector("#message") as HTMLInputElement)
         ?.value;
+        const x1= mensaje;
       const email = (document.querySelector("#email") as HTMLInputElement)
         ?.value;
+        const x2= "<h1>" + mensaje + "</h1>";
+        const formato= `${x2}`;
       const res = await fetch("/api/sendEmail.json", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "chris@learnastro.dev",
-          to: "o1b9c9h3@gmail.com",
-          subject: "Prueba",
-          html: "<p>Hi</p>",
-          text: mensaje,
+          from: "Acme <onboarding@resend.dev>",
+          to: email,
+          subject: email,
+          html: formato,
+          text: "",
         }),
       });
       const data = res.json();

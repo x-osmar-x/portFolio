@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Osmar Barrientos Chuveyzer",
+    "label": "Programmer",
+    "image": "",
+    "email": "o1b9c9h3@gmail.com",
+    "phone": "(591) 70045619",
+    "url": "",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "address": "South zone the lots stop 15",
+      "postalCode": "0000",
+      "city": "Santa Cruz de la sierra",
+      "countryCode": "BOL",
+      "region": "Santa Cruz"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "x-osmar-x",
+        "url": "https://github.com/x-osmar-x"
+      },
+      {
+        "network": "LinkenIn",
+        "username": "xztsunaxz",
+        "url": "https://www.linkedin.com/in/osmar-barrientos-chuveyzer-51934715a"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Cognos soluciones y servicios S.R.L.",
+      "position": "External consultant",
+      "url": "cognos.com.bo/",
+      "startDate": "2021-11-28",
+      "endDate": "2023-12-15",
+      "summary": "My responsibilities involved providing support and maintenance for the NOVUS and NOVUS NAC ERP systems. Additionally, I had to develop an API connection between their tax engine (online billing software) and Novus NAC.",
+      "highlights": [
+        "Back-end",
+        "Front-end",
+        "Support and maintenance",
+        "Api services",
+        "C#",
+        "Ado.net",
+        "Git",
+        ".Net framework",
+        "SQL",
+        "Transacc Sql",
+        "PL/SQL",
+        "Acces",
+        "Excel",
+        "Word",
+        "Reporting Services",
+        "Postman"
+      ]
+    },
+    {
+      "name": "Cognos soluciones y servicios S.R.L.",
+      "position": "Develop software",
+      "url": "cognos.com.bo/",
+      "startDate": "2018-09-12",
+      "endDate": "2020-12-31",
+      "summary": "We are a passionate and boundaryless company in the joint creation of technological solutions. Our focus is on supporting organizations to unleash their potential through effective digital strategies. We are committed to driving innovative ideas, providing high added value with an excellent cost-benefit ratio.",
+      "highlights": [
+        "Back-end",
+        "Front-end",
+        "Support and maintenance",
+        "VBA#",
+        "Ado.net",
+        "Git",
+        ".Net framework",
+        "SQL",
+        "Transacc Sql",
+        "PL/SQL",
+        "Acces",
+        "Excel",
+        "Word",
+        "Reporting Services"
+      ]
+    },
+    {
+      "name": "Micrium, Soluciones Tecnologicas",
+      "position": "Internship",
+      "url": "https://www.micrium.com.bo",
+      "startDate": "2017-09-12",
+      "endDate": "2017-12-31",
+      "summary": "We optimize project execution and completion times with a high degree of quality and efficiency. We prioritize having our staff trained in the various technologies required by our clients.",
+      "highlights": ["Back-end", "Front-end", "Support and maintenance"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://www.uagrm.edu.bo",
+      "area": "Informatics engineer",
+      "studyType": "Bachelor",
+      "startDate": "2010-01-01",
+      "endDate": "2017-01-01"
+    },
+    {
+        "institution": "College",
+        "url": "https://www.facebook.com/p/Luis-Espinal-Camps-III-100068602464107/",
+        "area": "Humanities",
+        "studyType": "College",
+        "startDate": "2009-01-01",
+        "endDate": "1998-01-01"
+      }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Espanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Lvl Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
