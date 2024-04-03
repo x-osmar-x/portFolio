@@ -1,12 +1,13 @@
 ---
 import { Image } from "astro:assets";
-import ImageFondo from "../assets/img/fondo.jpg";
-import LinkenInIcon from "../assets/icons/LinkenIn.astro";
-import GithubIcon from "../assets/icons/Github.astro";
-import SocialGroup from "../assets/icons/SocialGroup.astro";
+import { basics } from "@cv";
+import ImageFondo from "@/assets/img/fondo.jpg";
+import LinkenInIcon from "@/assets/icons/LinkenIn.astro";
+import GithubIcon from "@/assets/icons/Github.astro";
+import SocialGroup from "@/assets/icons/SocialGroup.astro";
 ---
 
-<section id="init" class="grow shrink-0 item ">
+<section id="init" class="grow shrink-0 item">
   <div
     class="grid lg:grid-cols-2 lg:gap-4 sm:grid-cols-1 sm:gap-1 shadow-2xl p-12"
   >
@@ -25,15 +26,13 @@ import SocialGroup from "../assets/icons/SocialGroup.astro";
           class="flex gap-2"
           href="https://bo.linkedin.com/in/osmar-barrientos-chuveyzer-51934715a"
         >
-          <LinkenInIcon class="w-6 h-6" />
-          LinkenIn
+          <LinkenInIcon class="w-6 h-6 bg-purple-900" />
+          <b>LinkenIn</b>
+          
         </SocialGroup>
-        <SocialGroup
-          class="flex gap-2"
-          href="https://github.com/x-osmar-x"
-        >
-          <GithubIcon class="w-6 h-6" />
-          Github
+        <SocialGroup class="flex gap-2" href="https://github.com/x-osmar-x">
+          <GithubIcon class="w-6 h-6 bg-purple-900" />
+          <b>Github</b>
         </SocialGroup>
       </nav>
     </div>
@@ -44,11 +43,9 @@ import SocialGroup from "../assets/icons/SocialGroup.astro";
         class="object-cover rounded-xl"
         loading="eager"
       />
-    </div>    
+    </div>
   </div>
-
 </section>
-
 
 <!--   <div class="grid lg:grid-cols-2 p-4" >
     <Image

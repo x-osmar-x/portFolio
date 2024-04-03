@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*":["src/*"]/*esto es para reemplazar en los componentes ".."*/
+      "@cv": ["./cv.json"],
+      "@/*": ["src/*"] /*esto es para reemplazar en los componentes ".."*/
     }
   }
 }
